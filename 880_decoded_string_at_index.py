@@ -103,8 +103,6 @@ def decode_at_index_3(s, k):
             last_latter = s[pointer]
             two_digit = False
 
-        pointer += 1
-
     print(res_str)
     print(res_qnt)
     print(res_len)
