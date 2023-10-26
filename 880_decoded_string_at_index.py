@@ -30,7 +30,6 @@ def decode_at_index_1(s, k):
 # can not passed: 
 # s = "cpmxv8ewnfk3xxcilcmm68d2ygc88daomywc3imncfjgtwj8nrxjtwhiem5nzqnicxzo248g52y72v3yujqpvqcssrofd99lkovg"
 # k = 480551547
-
 def decode_at_index_2(s, k):
     pointer = 0
 
@@ -56,7 +55,6 @@ def decode_at_index_2(s, k):
 
 
 # 46/46 Accepted
-
 def decode_at_index_3(s, k):
     l = len(s)
     if not s[l - 1].isdigit():
