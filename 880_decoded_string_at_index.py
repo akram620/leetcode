@@ -26,7 +26,7 @@ def decode_at_index_1(s, k):
     return "".join(res)[k - 1]
 
 
-# 36 / 46 testcases passed (Memory Limit Exceeded)
+# 36/46 testcases passed (Memory Limit Exceeded)
 # can not passed: 
 # s = "cpmxv8ewnfk3xxcilcmm68d2ygc88daomywc3imncfjgtwj8nrxjtwhiem5nzqnicxzo248g52y72v3yujqpvqcssrofd99lkovg"
 # k = 480551547
@@ -54,6 +54,8 @@ def decode_at_index_2(s, k):
 
     return last_str[k - 1]
 
+
+# 46/46 Accepted
 
 def decode_at_index_3(s, k):
     l = len(s)
